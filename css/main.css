@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color:#1788eb;
+}
+
+input {
+    margin: 50px;
+    padding: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.start-button{
+    text-align: center;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+#game-screen, #end-screen {
+    margin-top: 20px;
+}

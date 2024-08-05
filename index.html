@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<title>Игра Угадай Город</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+    <div id="start-screen">
+        <h1>Игра Угадай Город</h1>
+        <input type="text" id="player1" placeholder="Имя игрока 1" />
+        <button id="start-button">ОК</button>
+        <input type="text" id="player2" placeholder="Имя игрока 2" />
+        <button id="start-button">ОК</button>
+    </div>
+
+    <div id="game-screen" style="display: none;">
+        <h2 id="turn-info"></h2>
+        <input type="text" id="city-input" placeholder="Назовите город" />
+        <button id="submit-city">Подтвердить</button>
+        <button id="give-up">Сдаться</button>
+        <h3>Счет</h3>
+        <p id="score-info"></p>
+
+        
+    </div>
+
+    <div id="end-screen" style="display: none;">
+        <h2>Игра окончена!</h2>
+        <p id="final-score"></p>
+        <button id="restart-button">Начать заново</button>
+    </div>
+
+    <script src="js/main.js"></script>    
+</body>
+</html>
